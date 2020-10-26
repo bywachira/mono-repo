@@ -1,0 +1,15 @@
+{
+  "name": "roko-frontends",
+  "version": "1.0.0",
+  "description": "Hold all Roko frontends",
+  "main": "index.js",
+  "author": "wachira_Dev <ewachira254@gmail.com>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:jolly": "yarn --cwd packages/jolly start"
+  }
+}
